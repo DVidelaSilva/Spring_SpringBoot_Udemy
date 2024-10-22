@@ -1,14 +1,13 @@
-package com.curso.spring.springboot_web;
+package com.davs.springboot.springboot_di;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-
 @SpringBootApplication
-public class SpringbootWebApplication {
+public class SpringbootDiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootWebApplication.class, args);
+		SpringApplication.run(SpringbootDiApplication.class, args);
 	}
 
 }
